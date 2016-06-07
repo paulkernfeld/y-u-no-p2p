@@ -1,0 +1,33 @@
+{
+  "name": "y-u-no-p2p",
+  "version": "0.1.0",
+  "description": "Debug why your P2P connection isn't working",
+  "keywords": [
+    "p2p"
+  ],
+  "homepage": "https://github.com/paulkernfeld/y-u-no-p2p",
+  "bugs": {
+    "url": "https://github.com/paulkernfeld/y-u-no-p2p/issues"
+  },
+  "license": "ISC",
+  "author": "Paul Kernfeld",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulkernfeld/y-u-no-p2p.git"
+  },
+  "scripts": {
+    "start": "node bin/start.js",
+    "test": "standard && tape test/*.js"
+  },
+  "dependencies": {
+    "discovery-swarm": "^4.0.1",
+    "electron-webrtc": "^0.2.5",
+    "signalhub": "^4.4.0",
+    "simple-peer": "^6.0.4",
+    "tape": "^4.5.1",
+    "webrtc-swarm": "^2.4.0"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2"
+  }
+}
