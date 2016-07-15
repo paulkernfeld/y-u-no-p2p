@@ -2,4 +2,5 @@
 
 var webrtc = require('../lib/webrtc')
 
-webrtc.runSwarmNode()
+var swarm = webrtc.runSwarmNode()
+swarm.on('echo', function () { console.log('echo') })
