@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "discovery-swarm": "^4.0.1",
-    "electron-webrtc": "^0.2.5",
+    "electron-webrtc": "^0.2.12",
     "signalhub": "^4.4.0",
     "simple-peer": "^6.0.4",
     "tape": "^4.5.1",
