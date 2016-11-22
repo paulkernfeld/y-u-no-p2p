@@ -24,7 +24,7 @@
     "electron-webrtc": "^0.2.12",
     "signalhub": "^4.7.4",
     "simple-peer": "^6.0.7",
-    "tape": "^4.6.2",
+    "tape": "^4.6.3",
     "webrtc-swarm": "^2.8.0"
   },
   "devDependencies": {
