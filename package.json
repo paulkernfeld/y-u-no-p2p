@@ -28,6 +28,6 @@
     "webrtc-swarm": "^2.8.0"
   },
   "devDependencies": {
-    "standard": "^8.5.0"
+    "standard": "^8.6.0"
   }
 }
